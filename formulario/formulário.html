@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulário.css">
-    <title>Teste Login</title>
-
+    <title>Login</title>
 </head>
 
 <body>
     <div class="main-login">
         <div class="left-login">
-            <h1>Faça seu orçamento</h1>
+            <h1>Faça seu cadastro</h1>
             <h1>Podemos ajudar seu pet</h1>
+            <img src="imagem1.png" class="left-img" alt="logomarca">
         </div>
         <div class="right-login">
             <div class="card-login">
@@ -24,20 +24,21 @@
                     <input type="text" name="Nome" placeholder="Nome">
                     <div class="car-login">
                         <div class="textfield">
-                            <label for="Nome">Email</label>
+                            <label for="Email">Email</label>
                             <input type="text" name="Email" placeholder="Email">
                             <div class="car-login">
                                 <div class="textfield">
-                                    <label for="Nome">Telefone</label>
+                                    <label for="Telefone">Telefone</label>
                                     <input type="text" name="Telefone" placeholder="Telefone">
                                     <div class="car-login">
                                         <div class="textfield">
-                                            <label for="Nome">Tipo de pet</label>
-                                            <input type="text" name="Tipo de pet">
-                                        </div>
-                                        <div class="textfield">
-                                            <label for="Nome">Raça</label>
-                                            <input type="text" name="Tipo de pet">
+                                            <label>Tipo de pet</label>
+                                            <select name="Tipo de Pet" id="" class="form-control">
+                                            <option value="Cachorro">Cachorro</option>
+                                            <option value="Gato">Gato</option>
+                                            <option value="Ave">Ave</option>
+                                            <option value="outros">Outros</option>
+                                            </select>
                                         </div>
                                         <button class="btn-login">Enviar</button>
                                     </div>
